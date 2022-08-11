@@ -1,5 +1,7 @@
 import { Typography, TextField, Box, Button } from "@mui/material";
 
+import { Table } from "components";
+
 const statusList = [
   { value: "on_delivery", status: "On Delivery" },
   { value: "delivered", status: "Delivered" },
@@ -37,6 +39,9 @@ const Parcels = () => (
       <Box>
         <Button variant="contained">Add Parcel</Button>
       </Box>
+    </Box>
+    <Box>
+      <Table>yeah</Table>
     </Box>
   </div>
 );
