@@ -1,5 +1,5 @@
 import { Sidebar } from "components";
-import { Parcels } from "pages";
+import { Settings } from "pages";
 import { Box } from "@mui/material";
 
 const drawerWidth = 240;
@@ -20,7 +20,7 @@ const App = () => (
         width: { sm: `calc(100% - ${drawerWidth}px)` },
       }}
     >
-      <Parcels />
+      <Settings />
     </Box>
   </Box>
 );

@@ -1,6 +1,6 @@
 import { Typography, TextField, Box, Button } from "@mui/material";
 
-import { Table } from "components";
+import { Table, ParcelModal } from "components";
 
 const statusList = [
   { value: "on_delivery", status: "On Delivery" },
@@ -41,8 +41,9 @@ const Parcels = () => (
       </Box>
     </Box>
     <Box>
-      <Table>yeah</Table>
+      <Table />
     </Box>
+    <ParcelModal title="Add Parcel" />
   </div>
 );
 
