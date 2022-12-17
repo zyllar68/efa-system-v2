@@ -30,16 +30,16 @@ const Dashboard = () => (
       </Box>
       <Grid container spacing={2}>
         <Grid item md={3}>
-          <Paper elevation={3} status="Pending" />
+          <Paper status="Pending" />
         </Grid>
         <Grid item md={3}>
-          <Paper elevation={3} status="On delivery" />
+          <Paper status="On delivery" />
         </Grid>
         <Grid item md={3}>
-          <Paper elevation={3} status="Delivered" />
+          <Paper status="Delivered" />
         </Grid>
         <Grid item md={3}>
-          <Paper elevation={3} status="HAL" />
+          <Paper status="HAL" />
         </Grid>
       </Grid>
     </Box>
